@@ -2,10 +2,10 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://yoursite.com
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+url: http://fanxinglong.github.io/fxllong262553
+title: 程序人生
+subtitle: 感受生活，感悟工作，感触心灵.
+author: fanxinglong
 simple_search: http://google.com/search
 description:
 
@@ -16,7 +16,7 @@ description:
 date_format: "ordinal"
 
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
-subscribe_rss: /atom.xml
+subscribe_rss: /fxllong262553/atom.xml
 subscribe_email:
 # RSS feeds can list your email address if you like
 email:
@@ -26,10 +26,10 @@ email:
 # ----------------------- #
 
 # If publishing to a subdirectory as in http://site.com/project set 'root: /project'
-root: /
+root: /fxllong262553
 permalink: /blog/:year/:month/:day/:title/
 source: source
-destination: public
+destination: public/fxllong262553
 plugins: plugins
 code_dir: downloads/code
 category_dir: blog/categories
@@ -50,8 +50,29 @@ titlecase: true       # Converts page and post titles to titlecase
 
 # list each of the sidebar modules you want to include, in the order you want them to appear.
 # To add custom asides, create files in /source/_includes/custom/asides/ and add them to the list like 'custom/asides/custom_aside_name.html'
-default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.html, asides/pinboard.html, asides/googleplus.html]
+default_asides: [asides/recent_posts.html, custom/asides/weibo.html, asides/github.html]
 
+# Weibo
+# 请记得在 default_asides 后面加入 asides/weibo.html
+ 
+# 请在微博秀页面 http://weibo.com/tool/weiboshow 提供的代码中获取你的 uid 和 verifier. 
+weibo_uid: 2731314193     # 填入uid
+weibo_verifier: 539a06fb    # 填入verifier
+weibo_height: 450   # 微博秀宽度
+weibo_title: true   # 是否显示标题栏
+weibo_noborder: true    # 是否显示边框
+weibo_isfans: false   # 是否显示微博粉丝
+weibo_fansline: 1   # 粉丝显示多少行
+weibo_show: true    # 是否显示最近微博内容
+weibo_pic: true   # 是否显示微博中的图片
+weibo_skin: 1   # 使用哪种配色风格，数字为从1开始的微博秀风格序号
+ 
+# 以下内容如不自定义请留空，如果要自定义，须同时定义以下所有颜色，颜色代码不包含"#"
+weibo_color_title: e1e1e1   # 标题栏颜色
+weibo_color_bg: ffffff    # 背景色
+weibo_color_text: 666666    # 主字色
+weibo_color_link: 0082cb    # 链接色
+Weibo_color_hover: ecfbfd   # 鼠标悬停色
 # Each layout uses the default asides, but they can have their own asides instead. Simply uncomment the lines below
 # and add an array with the asides you want to use.
 # blog_index_asides:
