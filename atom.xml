@@ -4,7 +4,7 @@
   <title><![CDATA[程序人生]]></title>
   <link href="http://fanxinglong.github.io/fxllong262553/atom.xml" rel="self"/>
   <link href="http://fanxinglong.github.io/fxllong262553/"/>
-  <updated>2013-08-28T18:08:40+08:00</updated>
+  <updated>2013-08-28T18:10:11+08:00</updated>
   <id>http://fanxinglong.github.io/fxllong262553/</id>
   <author>
     <name><![CDATA[fanxinglong]]></name>
@@ -14,11 +14,20 @@
 
   
   <entry>
-    <title type="html"><![CDATA[hello world]]></title>
+    <title type="html"><![CDATA[Hello World]]></title>
     <link href="http://fanxinglong.github.io/fxllong262553/blog/2013/08/27/hello-world/"/>
-    <updated>2013-08-27T17:01:00+08:00</updated>
+    <updated>2013-08-27T00:00:00+08:00</updated>
     <id>http://fanxinglong.github.io/fxllong262553/blog/2013/08/27/hello-world</id>
-    <content type="html"><![CDATA[
+    <content type="html"><![CDATA[<p>我自己刚搭建博客，刚开张，希望大家多多关照啊！！！</p>
+
+<hr />
+
+<p>layout: post
+title: &ldquo;hello world&rdquo;
+date: 2013-08-27 17:01
+comments: true</p>
+
+<h2>categories: </h2>
 ]]></content>
   </entry>
   
